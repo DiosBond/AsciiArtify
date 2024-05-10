@@ -13,6 +13,17 @@
 | complexity of usage | complex | easy |    easy    |
 | multi-node support |	- | + |  + |
 
+## Check your system for support virtualization
+For Linux
+```
+grep -E --color 'vmx|svm' /proc/cpuinfo
+```
+For Windows
+```
+systeminfo
+
+```
+
 ### **Minikube** 
 Easy to install on GitHub codespases for local testing.
 Support different hypervisors, as VirtualBox, KVM & Docker.

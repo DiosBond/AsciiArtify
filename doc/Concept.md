@@ -21,7 +21,6 @@ grep -E --color 'vmx|svm' /proc/cpuinfo
 For Windows
 ```
 systeminfo
-
 ```
 
 ### **Minikube** 
@@ -41,8 +40,6 @@ Easy to install with go
 go install sigs.k8s.io/kind@v0.22.0
 kind create cluster
 ```
-#### Demo
-![](.data/demo_kind.gif)
 
 ### **k3d**
 Easy to install with curl
@@ -51,5 +48,3 @@ Easy to install with curl
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 k3d cluster create three-node-cluster --agents 3
 ```
-#### Demo
-![](.data/demo_k3d.gif)

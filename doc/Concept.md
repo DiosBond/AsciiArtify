@@ -31,7 +31,7 @@ Support different hypervisors, as VirtualBox, KVM & Docker.
 minikube start
 ```
 #### Demo
-![](.data/demo_minikube.gif)
+![](../.data/demo_minikube.gif)
 
 ### **kind (Kubernetes IN Docker)**
 Easy to install with go
